@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">NetExam</string>
+    <string name="hello">Зарегистрирован?</string>
+    <string name="friend">Молви \"друг\" и войди!</string>
+    <string name="hi">Hi</string>
+    <string name="login">Логин</string>
+    <string name="loginEN">login</string>
+    <string name="password">Пароль</string>
+    <string name="passwordEN">password</string>
+    <string name="repeat_password">Провтор пароля</string>
+    <string name="entry">Вход</string>
+    <string name="registration">Регистрация</string>
+    <string name="not_registered">Не зарегистрирован?</string>
+    <string name="must_not_be_empty">Поле должно быть заполнено</string>
+    <string name="must_be_equals">Пароли не совпадают</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="student">Студент</string>
+    <string name="who">Кто ты?</string>
+    <string name="firstName">Имя</string>
+    <string name="lastName">Фамилия</string>
+    <string name="patronymic">Отчество</string>
+    <string name="addition">Дополнительная информация</string>
+    <string name="semester">Семестр</string>
+    <string name="group">Группа</string>
+    <string name="department">Кафедра</string>
+    <string name="position">Должность</string>
+    <string name="type">type</string>
+    <string name="list_available_exam">Список доступных экзаменов</string>
+    <string name="list_current_exam">Список текущих экзаменов</string>
+    <string name="list_passed_exam">Список сданных экзаменов</string>
+    <string name="base_url">http://82.200.2.44:8888/</string>
+    <string name="action_passed_exams">Сданные экзамены</string>
+    <string name="action_current_exams">Текущие экзамены</string>
+    <string name="action_profile">Профиль</string>
+    <string name="action_sign_out">Выйти из системы</string>
+    <string name="exam">Экзамен</string>
+    <string name="exam_name">Название экзамена</string>
+    <string name="exam_number">Номер экзамена</string>
+    <string name="questions_count">Количество вопросов</string>
+    <string name="time">Время на экзамен</string>
+    <string name="start_exam">Начать экзамен</string>
+    <string name="question">Вопрос</string>
+    <string name="send_answers">Отправить ответы</string>
+    <string name="timer">Таймер</string>
+
+
+    <string-array name="semesters">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="groups">
+        <item>СПБ</item>
+        <item>СИБ</item>
+        <item>СББ</item>
+    </string-array>
+    <string-array name="departments">
+        <item>Безопасность</item>
+        <item>Кибернетика</item>
+        <item>Сети и телекоммуникации</item>
+    </string-array>
+    <string-array name="positions">
+        <item>Должность 1</item>
+        <item>Должность 2</item>
+    </string-array>
+</resources>

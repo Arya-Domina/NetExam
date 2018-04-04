@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.arya.netexam.RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type"
+            android:text="@string/addition"
+            android:textSize="8pt"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameTIL"
+            app:hintTextAppearance="@style/MyHintText"
+            app:errorEnabled="true">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/firstName"
+                android:text="@string/firstName"
+                android:inputType="textPersonName"
+                android:id="@+id/firstName"
+                android:maxLength="40"
+                android:theme="@style/MyEditText"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastnameTIL"
+            app:hintTextAppearance="@style/MyHintText"
+            app:errorEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lastName"
+                android:text="@string/lastName"
+                android:inputType="textPersonName"
+                android:id="@+id/lastname"
+                android:maxLength="40"
+                android:theme="@style/MyEditText"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/patronymicTIL"
+            app:hintTextAppearance="@style/MyHintText"
+            app:errorEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/patronymic"
+                android:text="@string/patronymic"
+                android:id="@+id/patronymic"
+                android:maxLength="40"
+                android:theme="@style/MyEditText"/>
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:text="@string/semester"/>
+        <Spinner
+            android:layout_width="90pt"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:entries="@array/semesters"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:text="@string/group"/>
+        <Spinner
+            android:layout_width="90pt"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:textAlignment="center"
+            android:entries="@array/groups"/>
+        <Button
+            android:layout_width="90pt"
+            android:layout_height="wrap_content"
+            android:id="@+id/registration_btn"
+            android:text="@string/registration"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    </LinearLayout>
+</ScrollView>

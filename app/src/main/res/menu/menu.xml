@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saulmm.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_current_exams"
+        android:title="@string/action_current_exams"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_passed_exams"
+        android:title="@string/action_passed_exams"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/action_profile"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="@string/action_sign_out"
+        app:showAsAction="never"/>
+
+</menu>
